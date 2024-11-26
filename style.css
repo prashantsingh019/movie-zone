@@ -1,0 +1,36 @@
+button{
+    font-weight: bold !important;
+}
+.poster-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5%;
+}
+.title{
+    font-size: 1.8rem;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bolder;
+}
+.dom-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+.movie-card{
+    width: 22.5%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.onHoverEffect:hover .poster-img{
+    transition: all 1s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.image-container{
+    margin-bottom: 10px;
+}
